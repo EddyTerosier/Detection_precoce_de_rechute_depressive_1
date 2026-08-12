@@ -1,0 +1,360 @@
+{
+  "logistique / baseline_1_variable": {
+    "modele": "logistique",
+    "jeu": "baseline_1_variable",
+    "n_variables": 1,
+    "variables": [
+      "activity_mean"
+    ],
+    "loso": {
+      "exactitude_jour": 0.5281385281385281,
+      "macro_f1_jour": 0.4734394420059404,
+      "auc_ovr": {
+        "temoin": 0.8064766589506173,
+        "depression": 0.4676708713544462,
+        "schizophrenie": 0.7104453627180901,
+        "macro": 0.6615309643410513
+      },
+      "auc_duel_dep_vs_schizo": 0.4764218269653052,
+      "exactitude_sujet": 0.5454545454545454,
+      "matrice_jour": [
+        [
+          299,
+          56,
+          29
+        ],
+        [
+          105,
+          43,
+          128
+        ],
+        [
+          56,
+          62,
+          146
+        ]
+      ],
+      "matrice_sujet": [
+        [
+          27,
+          3,
+          2
+        ],
+        [
+          10,
+          2,
+          11
+        ],
+        [
+          5,
+          4,
+          13
+        ]
+      ]
+    },
+    "repeated": {
+      "macro_f1_moyen": 0.49597988255195197,
+      "macro_f1_ecart_type": 0.06678750571380684,
+      "duel_moyen": 0.5707850694444445,
+      "duel_ecart_type": 0.1516968188293607,
+      "duel_p2_5": 0.2964392361111111,
+      "duel_p97_5": 0.8373394097222221
+    }
+  },
+  "logistique / reduit_7_variables": {
+    "modele": "logistique",
+    "jeu": "reduit_7_variables",
+    "n_variables": 7,
+    "variables": [
+      "activity_mean",
+      "activity_cv",
+      "n_active_bouts",
+      "pct_zero_minutes",
+      "night_day_ratio",
+      "l5_onset_hour",
+      "relative_amplitude"
+    ],
+    "loso": {
+      "exactitude_jour": 0.6439393939393939,
+      "macro_f1_jour": 0.6317651090234276,
+      "auc_ovr": {
+        "temoin": 0.7990113811728395,
+        "depression": 0.6933541331186258,
+        "schizophrenie": 0.883614554637282,
+        "macro": 0.7919933563095825
+      },
+      "auc_duel_dep_vs_schizo": 0.855429292929293,
+      "exactitude_sujet": 0.7532467532467533,
+      "matrice_jour": [
+        [
+          283,
+          66,
+          35
+        ],
+        [
+          112,
+          121,
+          43
+        ],
+        [
+          37,
+          36,
+          191
+        ]
+      ],
+      "matrice_sujet": [
+        [
+          27,
+          4,
+          1
+        ],
+        [
+          8,
+          13,
+          2
+        ],
+        [
+          2,
+          2,
+          18
+        ]
+      ]
+    },
+    "repeated": {
+      "macro_f1_moyen": 0.6411938628440231,
+      "macro_f1_ecart_type": 0.06569558563962663,
+      "duel_moyen": 0.8626753472222223,
+      "duel_ecart_type": 0.08178423639454085,
+      "duel_p2_5": 0.6904774305555555,
+      "duel_p97_5": 0.9693402777777778
+    }
+  },
+  "logistique / complet_19_variables": {
+    "modele": "logistique",
+    "jeu": "complet_19_variables",
+    "n_variables": 19,
+    "variables": [
+      "activity_mean",
+      "activity_median",
+      "activity_p95",
+      "activity_max",
+      "activity_std",
+      "activity_cv",
+      "activity_iqr",
+      "pct_zero_minutes",
+      "longest_zero_run",
+      "n_active_bouts",
+      "night_activity_mean",
+      "day_activity_mean",
+      "night_day_ratio",
+      "activity_center_hour",
+      "m10",
+      "l5",
+      "relative_amplitude",
+      "intradaily_variability",
+      "l5_onset_hour"
+    ],
+    "loso": {
+      "exactitude_jour": 0.6536796536796536,
+      "macro_f1_jour": 0.6384405612630614,
+      "auc_ovr": {
+        "temoin": 0.8353395061728395,
+        "depression": 0.7234746824118805,
+        "schizophrenie": 0.8954315886134068,
+        "macro": 0.8180819257327089
+      },
+      "auc_duel_dep_vs_schizo": 0.8472222222222223,
+      "exactitude_sujet": 0.7532467532467533,
+      "matrice_jour": [
+        [
+          292,
+          61,
+          31
+        ],
+        [
+          113,
+          117,
+          46
+        ],
+        [
+          30,
+          39,
+          195
+        ]
+      ],
+      "matrice_sujet": [
+        [
+          28,
+          3,
+          1
+        ],
+        [
+          9,
+          11,
+          3
+        ],
+        [
+          1,
+          2,
+          19
+        ]
+      ]
+    },
+    "repeated": {
+      "macro_f1_moyen": 0.6457898467155264,
+      "macro_f1_ecart_type": 0.0564858177119104,
+      "duel_moyen": 0.8466135416666666,
+      "duel_ecart_type": 0.08589064331986095,
+      "duel_p2_5": 0.6494357638888889,
+      "duel_p97_5": 0.9622499999999999
+    }
+  },
+  "random_forest / reduit_7_variables": {
+    "modele": "random_forest",
+    "jeu": "reduit_7_variables",
+    "n_variables": 7,
+    "variables": [
+      "activity_mean",
+      "activity_cv",
+      "n_active_bouts",
+      "pct_zero_minutes",
+      "night_day_ratio",
+      "l5_onset_hour",
+      "relative_amplitude"
+    ],
+    "loso": {
+      "exactitude_jour": 0.6038961038961039,
+      "macro_f1_jour": 0.5878993457631427,
+      "auc_ovr": {
+        "temoin": 0.7965711805555556,
+        "depression": 0.6875726874217212,
+        "schizophrenie": 0.8385674931129476,
+        "macro": 0.7742371203634081
+      },
+      "auc_duel_dep_vs_schizo": 0.7861495388669302,
+      "exactitude_sujet": 0.6883116883116883,
+      "matrice_jour": [
+        [
+          281,
+          68,
+          35
+        ],
+        [
+          116,
+          111,
+          49
+        ],
+        [
+          52,
+          46,
+          166
+        ]
+      ],
+      "matrice_sujet": [
+        [
+          28,
+          3,
+          1
+        ],
+        [
+          10,
+          10,
+          3
+        ],
+        [
+          4,
+          3,
+          15
+        ]
+      ]
+    },
+    "repeated": {
+      "macro_f1_moyen": 0.5931988201789461,
+      "macro_f1_ecart_type": 0.07078037656279379,
+      "duel_moyen": 0.7924385416666665,
+      "duel_ecart_type": 0.08324935013135708,
+      "duel_p2_5": 0.6162760416666666,
+      "duel_p97_5": 0.9324153645833333
+    }
+  },
+  "random_forest / complet_19_variables": {
+    "modele": "random_forest",
+    "jeu": "complet_19_variables",
+    "n_variables": 19,
+    "variables": [
+      "activity_mean",
+      "activity_median",
+      "activity_p95",
+      "activity_max",
+      "activity_std",
+      "activity_cv",
+      "activity_iqr",
+      "pct_zero_minutes",
+      "longest_zero_run",
+      "n_active_bouts",
+      "night_activity_mean",
+      "day_activity_mean",
+      "night_day_ratio",
+      "activity_center_hour",
+      "m10",
+      "l5",
+      "relative_amplitude",
+      "intradaily_variability",
+      "l5_onset_hour"
+    ],
+    "loso": {
+      "exactitude_jour": 0.5995670995670995,
+      "macro_f1_jour": 0.5780889732705311,
+      "auc_ovr": {
+        "temoin": 0.8192274305555556,
+        "depression": 0.6761663535516192,
+        "schizophrenie": 0.8405245638200185,
+        "macro": 0.7786394493090644
+      },
+      "auc_duel_dep_vs_schizo": 0.7563131313131313,
+      "exactitude_sujet": 0.6753246753246753,
+      "matrice_jour": [
+        [
+          288,
+          65,
+          31
+        ],
+        [
+          110,
+          103,
+          63
+        ],
+        [
+          54,
+          47,
+          163
+        ]
+      ],
+      "matrice_sujet": [
+        [
+          28,
+          3,
+          1
+        ],
+        [
+          9,
+          9,
+          5
+        ],
+        [
+          3,
+          4,
+          15
+        ]
+      ]
+    },
+    "repeated": {
+      "macro_f1_moyen": 0.5808307794145288,
+      "macro_f1_ecart_type": 0.07468299753476901,
+      "duel_moyen": 0.7743850694444445,
+      "duel_ecart_type": 0.09570669378883619,
+      "duel_p2_5": 0.5983919270833333,
+      "duel_p97_5": 0.9172951388888888
+    }
+  }
+}

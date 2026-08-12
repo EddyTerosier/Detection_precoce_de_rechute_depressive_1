@@ -1,0 +1,23 @@
+number,gender,age,days,schtype,migraine,bprs,cloz,trad,moodst,agehosp
+patient_1,male,45-49,13,paranoid,schizophrenia not migraine,48,clozapine,not traditional neuroleptic,not mood stabilizer,22
+patient_2,male,50-54,13,paranoid,schizophrenia not migraine,59,not clozapine,not traditional neuroleptic,mood stabilizer,19
+patient_3,male,55-60,13,paranoid,schizophrenia not migraine,38,not clozapine,not traditional neuroleptic,mood stabilizer,23
+patient_4,male,35-39,13,paranoid,schizophrenia not migraine,51,clozapine,not traditional neuroleptic,mood stabilizer,19
+patient_5,female,35-39,13,paranoid,schizophrenia + migraine,59,clozapine,not traditional neuroleptic,not mood stabilizer,27
+patient_6,male,55-59,13,non-paranoid,schizophrenia not migraine,NA,clozapine,not traditional neuroleptic,not mood stabilizer,17
+patient_7,male,25-29,12,paranoid,schizophrenia not migraine,56,clozapine,not traditional neuroleptic,mood stabilizer,17
+patient_8,female,40-44,13,paranoid,schizophrenia not migraine,44,not clozapine,not traditional neuroleptic,not mood stabilizer,20
+patient_9,male,65-69,13,non-paranoid,schizophrenia not migraine,58,not clozapine,not traditional neuroleptic,mood stabilizer,19
+patient_10,male,40-44,14,paranoid,schizophrenia not migraine,58,clozapine,not traditional neuroleptic,not mood stabilizer,24
+patient_11,male,30-34,13,paranoid,schizophrenia not migraine,59,not clozapine,not traditional neuroleptic,not mood stabilizer,28
+patient_12,female,55-59,13,non-paranoid,schizophrenia not migraine,38,not clozapine,tradional neuroleptic (as only n.),not mood stabilizer,25
+patient_13,male,35-39,12,paranoid,schizophrenia not migraine,49,clozapine,not traditional neuroleptic,not mood stabilizer,21
+patient_14,male,55-59,13,paranoid,schizophrenia + migraine,44,not clozapine,tradional neuroleptic (as only n.),not mood stabilizer,26
+patient_15,male,50-54,13,paranoid,schizophrenia not migraine,40,not clozapine,tradional neuroleptic (as only n.),not mood stabilizer,45
+patient_16,male,40-44,13,paranoid,schizophrenia + migraine,59,clozapine,not traditional neuroleptic,not mood stabilizer,10
+patient_17,male,45-49,13,paranoid,schizophrenia not migraine,56,not clozapine,not traditional neuroleptic,not mood stabilizer,29
+patient_18,male,55-59,13,non-paranoid,schizophrenia not migraine,NA,not clozapine,not traditional neuroleptic,not mood stabilizer,52
+patient_19,male,35-39,13,paranoid,schizophrenia + migraine,NA,not clozapine,tradional neuroleptic (as only n.),not mood stabilizer,20
+patient_20,male,40-44,13,paranoid,schizophrenia not migraine,NA,not clozapine,tradional neuroleptic (as only n.),not mood stabilizer,30
+patient_21,male,30-34,13,non-paranoid,schizophrenia not migraine,34,not clozapine,not traditional neuroleptic,not mood stabilizer,27
+patient_22,male,50-54,13,paranoid,schizophrenia not migraine,NA,not clozapine,tradional neuroleptic (as only n.),not mood stabilizer,NA

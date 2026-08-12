@@ -1,0 +1,13 @@
+feature_a,feature_b,correlation
+activity_p95,activity_std,0.9675102186424588
+activity_mean,m10,0.9648730593298581
+day_activity_mean,m10,0.9648412656787104
+activity_mean,activity_iqr,0.9643323392337863
+activity_mean,day_activity_mean,0.9503382022989334
+activity_mean,activity_p95,0.9454199061950495
+activity_p95,m10,0.9448566892685051
+activity_iqr,m10,0.9372737430881489
+activity_iqr,day_activity_mean,0.934060210145578
+activity_std,m10,0.932525403853712
+activity_mean,activity_std,0.9236583636444861
+activity_p95,day_activity_mean,0.9097067963599177

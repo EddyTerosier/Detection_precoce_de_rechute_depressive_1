@@ -1,0 +1,78 @@
+subject_id,class_label,class_name,source,sex,age_range,days_declared,subtype,severity_scale,severity_score,inpatient,days_kept
+condition_1,1,depression,depresjon,M,35-39,11,unipolaire,MADRS,19.0,ambulatoire,12
+condition_2,1,depression,depresjon,M,40-44,18,bipolaire II,MADRS,24.0,ambulatoire,12
+condition_3,1,depression,depresjon,F,45-49,13,unipolaire,MADRS,24.0,ambulatoire,12
+condition_4,1,depression,depresjon,M,25-29,13,unipolaire,MADRS,20.0,ambulatoire,12
+condition_5,1,depression,depresjon,M,50-54,13,unipolaire,MADRS,26.0,ambulatoire,12
+condition_6,1,depression,depresjon,F,35-39,7,unipolaire,MADRS,18.0,ambulatoire,12
+condition_7,1,depression,depresjon,F,20-24,11,bipolaire II,MADRS,24.0,ambulatoire,12
+condition_8,1,depression,depresjon,M,25-29,5,unipolaire,MADRS,20.0,ambulatoire,12
+condition_9,1,depression,depresjon,M,45-49,13,bipolaire II,MADRS,26.0,ambulatoire,12
+condition_10,1,depression,depresjon,M,45-49,9,unipolaire,MADRS,28.0,ambulatoire,12
+condition_11,1,depression,depresjon,F,45-49,14,unipolaire,MADRS,24.0,ambulatoire,12
+condition_12,1,depression,depresjon,M,40-44,12,bipolaire II,MADRS,25.0,ambulatoire,12
+condition_13,1,depression,depresjon,M,35-39,14,bipolaire II,MADRS,18.0,ambulatoire,12
+condition_14,1,depression,depresjon,F,60-64,14,bipolaire II,MADRS,28.0,ambulatoire,12
+condition_15,1,depression,depresjon,M,55-59,13,unipolaire,MADRS,14.0,ambulatoire,12
+condition_16,1,depression,depresjon,F,45-49,16,unipolaire,MADRS,13.0,ambulatoire,12
+condition_17,1,depression,depresjon,F,50-54,13,bipolaire II,MADRS,17.0,ambulatoire,12
+condition_18,1,depression,depresjon,M,40-44,13,bipolaire I,MADRS,18.0,ambulatoire,12
+condition_19,1,depression,depresjon,M,50-54,13,unipolaire,MADRS,26.0,hospitalise,12
+condition_20,1,depression,depresjon,F,30-34,13,unipolaire,MADRS,27.0,hospitalise,12
+condition_21,1,depression,depresjon,M,35-39,13,unipolaire,MADRS,26.0,hospitalise,12
+condition_22,1,depression,depresjon,F,65-69,14,unipolaire,MADRS,29.0,hospitalise,12
+condition_23,1,depression,depresjon,F,30-34,16,unipolaire,MADRS,29.0,hospitalise,12
+control_1,0,temoin,depresjon,M,25-29,8,,,,sans objet,12
+control_2,0,temoin,depresjon,F,30-34,20,,,,sans objet,12
+control_3,0,temoin,depresjon,M,30-34,12,,,,sans objet,12
+control_4,0,temoin,depresjon,F,25-29,13,,,,sans objet,12
+control_5,0,temoin,depresjon,F,30-34,13,,,,sans objet,12
+control_6,0,temoin,depresjon,F,25-29,13,,,,sans objet,12
+control_7,0,temoin,depresjon,F,20-24,13,,,,sans objet,12
+control_8,0,temoin,depresjon,M,40-44,13,,,,sans objet,12
+control_9,0,temoin,depresjon,M,30-34,13,,,,sans objet,12
+control_10,0,temoin,depresjon,F,30-34,8,,,,sans objet,12
+control_11,0,temoin,depresjon,F,45-49,13,,,,sans objet,12
+control_12,0,temoin,depresjon,F,60-64,14,,,,sans objet,12
+control_13,0,temoin,depresjon,F,50-54,13,,,,sans objet,12
+control_14,0,temoin,depresjon,F,50-54,13,,,,sans objet,12
+control_15,0,temoin,depresjon,F,45-49,11,,,,sans objet,12
+control_16,0,temoin,depresjon,M,40-44,13,,,,sans objet,12
+control_17,0,temoin,depresjon,F,45-49,9,,,,sans objet,12
+control_18,0,temoin,depresjon,M,20-24,13,,,,sans objet,12
+control_19,0,temoin,depresjon,F,50-54,13,,,,sans objet,12
+control_20,0,temoin,depresjon,F,35-39,13,,,,sans objet,12
+control_21,0,temoin,depresjon,F,50-54,8,,,,sans objet,12
+control_22,0,temoin,depresjon,F,25-29,13,,,,sans objet,12
+control_23,0,temoin,depresjon,F,20-24,13,,,,sans objet,12
+control_24,0,temoin,depresjon,M,20-24,13,,,,sans objet,12
+control_25,0,temoin,depresjon,F,65-69,13,,,,sans objet,12
+control_26,0,temoin,depresjon,F,35-39,13,,,,sans objet,12
+control_27,0,temoin,depresjon,M,50-54,13,,,,sans objet,12
+control_28,0,temoin,depresjon,M,45-49,16,,,,sans objet,12
+control_29,0,temoin,depresjon,M,50-54,13,,,,sans objet,12
+control_30,0,temoin,depresjon,M,35-39,9,,,,sans objet,12
+control_31,0,temoin,depresjon,F,20-24,13,,,,sans objet,12
+control_32,0,temoin,depresjon,M,25-29,14,,,,sans objet,12
+patient_1,2,schizophrenie,psykose,M,45-49,13,paranoid,BPRS,48.0,non documente,12
+patient_2,2,schizophrenie,psykose,M,50-54,13,paranoid,BPRS,59.0,non documente,12
+patient_3,2,schizophrenie,psykose,M,55-60,13,paranoid,BPRS,38.0,non documente,12
+patient_4,2,schizophrenie,psykose,M,35-39,13,paranoid,BPRS,51.0,non documente,12
+patient_5,2,schizophrenie,psykose,F,35-39,13,paranoid,BPRS,59.0,non documente,12
+patient_6,2,schizophrenie,psykose,M,55-59,13,non-paranoid,BPRS,,non documente,12
+patient_7,2,schizophrenie,psykose,M,25-29,12,paranoid,BPRS,56.0,non documente,12
+patient_8,2,schizophrenie,psykose,F,40-44,13,paranoid,BPRS,44.0,non documente,12
+patient_9,2,schizophrenie,psykose,M,65-69,13,non-paranoid,BPRS,58.0,non documente,12
+patient_10,2,schizophrenie,psykose,M,40-44,14,paranoid,BPRS,58.0,non documente,12
+patient_11,2,schizophrenie,psykose,M,30-34,13,paranoid,BPRS,59.0,non documente,12
+patient_12,2,schizophrenie,psykose,F,55-59,13,non-paranoid,BPRS,38.0,non documente,12
+patient_13,2,schizophrenie,psykose,M,35-39,12,paranoid,BPRS,49.0,non documente,12
+patient_14,2,schizophrenie,psykose,M,55-59,13,paranoid,BPRS,44.0,non documente,12
+patient_15,2,schizophrenie,psykose,M,50-54,13,paranoid,BPRS,40.0,non documente,12
+patient_16,2,schizophrenie,psykose,M,40-44,13,paranoid,BPRS,59.0,non documente,12
+patient_17,2,schizophrenie,psykose,M,45-49,13,paranoid,BPRS,56.0,non documente,12
+patient_18,2,schizophrenie,psykose,M,55-59,13,non-paranoid,BPRS,,non documente,12
+patient_19,2,schizophrenie,psykose,M,35-39,13,paranoid,BPRS,,non documente,12
+patient_20,2,schizophrenie,psykose,M,40-44,13,paranoid,BPRS,,non documente,12
+patient_21,2,schizophrenie,psykose,M,30-34,13,non-paranoid,BPRS,34.0,non documente,12
+patient_22,2,schizophrenie,psykose,M,50-54,13,paranoid,BPRS,,non documente,12
